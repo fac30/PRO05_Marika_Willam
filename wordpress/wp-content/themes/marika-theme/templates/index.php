@@ -1,25 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php require("../parts/head.php") ?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GreenHarvest Store</title>
-</head>
-
-<body>
-
-    <!-- Header -->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#about-us">About us</a></li>
-                <li><a href="#our-products">Our Products</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
-
+<?php require("../parts/navbar.php") ?>
 
     <section id="hero">
         <h1>Welcome to GreenHarvest</h1>
@@ -57,28 +38,4 @@
             <p>grewdq</p>
     </section>
 
-    <footer>
-        <p>Follow Us</p>
-        <ul>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-        </ul>
-
-
-        </ul>
-        <h4>We’re on a mission to make healthy living easy and affordable for everyone.</h4>
-        <ul>
-            <li><a href="#">Sitemap</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Accessibility Adjustments</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-        </ul>
-        <p>&copy; Organic Grocery Store 2024. All rights reserved.</p>
-    </footer>
-
-</body>
-
-</html>
+<?php require("../parts/foot.php") ?>
