@@ -1,6 +1,6 @@
-<?php require("../parts/head.php") ?>
+<?php get_template_part("./parts/head.php") ?>
 
-<?php require("../parts/navbar.php") ?>
+<?php get_template_part("./parts/navbar.php") ?>
 
     <section id="hero">
         <h1>Welcome to GreenHarvest</h1>
@@ -38,4 +38,4 @@
             <p>grewdq</p>
     </section>
 
-<?php require("../parts/foot.php") ?>
+<?php get_template_part("./parts/foot.php") ?>
